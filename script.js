@@ -28,7 +28,7 @@ switch (num) {
         break;
 }
 
-let num = 50;
+//let num = 50;
 
 // while (num <= 55) {
 //     console.log(num);
@@ -43,7 +43,66 @@ while (numm < 55);   //Когда мы хотим что то сделать, а
 
 for (let i = 1; i <= 8; i++) {
     if (i == 6){
-        continue
+        continue;
     }
     console.log(i)
 }
+
+
+//Функции
+// let num = 20;
+
+// function showFirstMessage (text) { //По не гласному правилу функция должна быть глаголом
+//     alert(text);
+//     let num = 10;
+//     console.log(num);
+// }
+
+// showFirstMessage("Hello word!");
+// console.log(num);
+
+// function calc(a,b) {
+//     return  (a + b);
+// }
+
+// console.log(calc(3,4));
+
+// console.log(calc(8,4));
+
+// function retVar () {
+//     let nun = 50;
+//     return nun;
+// }
+
+// let anotherNum = retVar();
+// console.log(anotherNun);
+
+
+
+
+// // let calc = functiom(a,b) {
+// //     return (a + b);
+// // }
+
+// let calc = (a,b) => (a + b);
+
+// console.log(calc(3,4));
+
+// console.log(calc(8,4));
+
+
+
+let str = "test";
+console.log(str.length);
+
+console.log(str.toUpperCase()); //Переводит в верхний регистр
+console.log(str.toLowerCase()); //Переводит в нижний регистр
+
+
+let twelve = "12.2px";
+
+//console.log(Math.round(twelve));
+
+console.log(parseInt(twelve));
+console.log(parseFloat(twelve));
+
